@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
-    int day,month,year;
-    printf("Enter date followed by month and year: ");
-    scanf("%d%d%d",&day,&month,&year);
-    printf("\"%d/%d/%d\"",day,month,year);
-    printf("\nchanged format is \"day-%d ,month-%d ,year-%d\"",day,month,year);
-    return 0;
+    int x;
+    printf("Enter an number: ");
+    scanf("%d",&x);
+    x=x/10;
+    x=x*10;
+    printf("new number is %d",x);
+    getch();
 }

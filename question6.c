@@ -1,5 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main(){
-    printf("\"Hello , Neeraj sharma\"");
+    char c;
+    printf("enter an charecter: ");
+    scanf("%c",&c);
+    printf("ASCII code of %c is %d",c,c);
+    getch();
 }
