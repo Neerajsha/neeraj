@@ -1,13 +1,16 @@
+//  Write a program to check whether a given number is an even number or an odd 
+// number without using % operator.
+
 #include<stdio.h>
 #include<conio.h>
-int main()
-{
-    int a,b;
-    printf("Enter two values: ");
-    scanf("%d %d",&a,&b);
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    printf("%d %d",a,b);
+int main(){
+    int x,number;
+    printf("Enter number: ");
+    scanf("%d",&x);
+    number=x&1;
+    if(number==1)
+        printf("odd number");
+    else
+        printf("Even number");
     getch();
 }

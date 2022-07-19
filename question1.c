@@ -1,9 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
+
 int main(){
-    int x;
-    printf("Enter any number: ");
-    scanf("%d",&x);
-    printf("The unit digit of number %d is %d",x,x%10);
+    int n;
+    printf("This is program to check number is positive or Non-positive.\n");
+    printf("\nEnter an number: ");
+    scanf("%d",&n);
+    if (n>0)
+    {
+        printf("Number is positive.");
+    }
+    if (n<=0)
+    {
+        printf("Number is Non-positive.");
+    }
+    
     getch();
 }
