@@ -1,23 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
-
 int main(){
-    int cp,sp,prft,percent;
-    printf("Enter the cost price of Product: ");
-    scanf("%d",&cp);
-    printf("Enter the selling price of Product: ");
-    scanf("%d",&sp);
-
-    prft=sp-cp;
-
-    percent=(prft*100)/sp;
-
-    if (percent>0)
+    int n=5,i=1;
+    while (i<=10)
     {
-        printf("your Profit percentage on product is %d %% ",percent);
+        printf("\n%d*%d=%d",n,i,n*i);
+        i++;
     }
-    else
-        printf("your loss percentage on product is %d %% ",percent);
-    
     getch();
 }

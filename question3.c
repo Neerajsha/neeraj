@@ -2,17 +2,11 @@
 #include<conio.h>
 
 int main(){
-    int x;
-    printf("This is program to check number is even or odd.\n");
-    printf("Enter an number: ");
-    scanf("%d",&x);
-    if (x%2==0)
+    int i=10;
+    while (i>=1)
     {
-        printf("Even Number.");
-    }
-    if (x%2)
-    {
-        printf("odd Number.");
+        printf("\n%d",i);
+        i--;
     }
     getch();
 }
